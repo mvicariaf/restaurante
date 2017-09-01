@@ -2,20 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bienvenidos</title>
+	<title>Menú</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-	<!--HEARDER-->
 	<header>
 		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <a class="navbar-brand" href="index.html"><img src="./images/logo.jpg"></a>
+		  <a class="navbar-brand" href="home.html"><img src="../images/logo.jpg"></a>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
@@ -39,14 +37,24 @@
 		</nav>
 	</header>
 	
-	<div id="main" class="full-width">
-		<section class="text-center">
-			<img class="img-fluid rounded" src="./images/portada.jpg">
-		</section>
-		<section class="text-center text-underline-title ">
-			<h1>Casa Vicaria Restaurante</h1>
-			<h2>El restaurante Casa Vicaria le presenta una gastronómia de alta costura en todos sus restaurantes y servicios. Disfrutará de unos momentos únicos durante su estancia.</h2>
-		</section>
+	<div id="carta" class="center col-md-9">
+		<div id="menu-list" class="container">
+			<h1>Nuestra Carta</h1>
+			<form>
+				<ul>
+					<li><h2>Entrantes</h2></li>
+					<li>
+						<ul id="entrantes">
+							<li></li>
+						</ul>
+					</li>
+					<li><h2>Carnes</h2></li>
+					<li><h2>Pescados</h2></li>
+					<li><h2>Postres</h2></li>
+					<li><h2>Bebidas</h2></li>
+				</ul>
+			</form>
+		</div>
 	</div>
 
 
@@ -72,6 +80,7 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="./js/jquery-2.1.4.js"></script>
+    <script src="../js/jquery-2.1.4.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 </html>
