@@ -1,8 +1,10 @@
-var connect = require('connect');
-var serveStatic = require('serve-static');
-connect().use(serveStatic(__dirname)).listen(8000, function(){
-    console.log('Server running on 8000...');
+var express = require ('express');
+var app = express();
+var menu = require('./data/menu.json');
+app.get('/menu' , function(req,res){
+	res.json(menu);
 });
+app.listen(3000);
 // cd navega hasta la carpeta 
 // npm install connect serve-static
 // pon este archivo en la raíz de la carpeta
