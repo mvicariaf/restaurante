@@ -15,24 +15,31 @@
 #carta{
 	background-color: #D9CCCC;
 	width: 100%;
-	height: 100%;
-	margin-bottom: 50px;
+    height: calc(100% - 40px);	
 	margin-top: 20px;
-
+	margin-bottom: 0;
 }
+
 li{
 	list-style-type: none;
 }
-li h1{
-
+ul img{
+	width: 280px;
+	height: 180px;
 }
+/*button{
+	display: inline;
+	
+}*/
+
+
 footer { 
 	background-color:#0c1a1e; 
-	min-height:40px; 
+	min-height:82px; 
 	font-family: 'Open Sans', sans-serif; 
 	width: 100%;
-	position: fixed;
-	bottom: 0;
+	position: relative;
+    bottom: -6px;
 }
 
  .bottom_ul { 
