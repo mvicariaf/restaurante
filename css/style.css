@@ -19,7 +19,12 @@
 	margin-top: 20px;
 	margin-bottom: 0;
 }
-
+#carrito{
+	background-color: #D9CCCC;
+	width: 100%;
+    height: 250px;	
+	margin-top: 20px;
+}
 li{
 	list-style-type: none;
 }
